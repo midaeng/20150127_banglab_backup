@@ -1,0 +1,23 @@
+# Site navigation links
+- title: Home
+  url: /
+  
+- title: SOY CANDLES
+  url: /articles/
+  excerpt: "First making things by BANG LAB."
+  image: 400x250.gif
+
+- title: MAKING
+  url: /making/
+  excerpt: "Examples of media posts perfect for showcasing work, etc."
+  image: 400x250.gif
+
+- title: BLOG
+  url: /blog/
+  excerpt: "Blog posts for work"
+  image: 400x250.gif
+
+- title: ABOUT
+  url: /about/
+  excerpt: "All about BANGLAB."
+  image: 400x250.gif

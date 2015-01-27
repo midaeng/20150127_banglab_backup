@@ -1,0 +1,41 @@
+# Site wide configuration
+
+title: BANG LAB.
+description: BANG's handcrafting blog 
+logo: avatar.png
+teaser: 
+locale: en_US
+url: //banglab.com
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+pygments: true
+
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name: Mijin Baek
+  avatar: avatar.jpg
+  bio: I'm a software developer and process engineer in Korea. I'm interested in growing up of organize and excuting my idea than making plans long time. So I'm trying constantly to improve the process.
+  email: midaeng@gmail.com
+  facebook: bybanglab   
+  avatar: bio-photo.png # 160x160 px image for author byline
+  google:
+    plus: +midaeng
+    ad-client: 
+    ad-slot: 
+  disqus-shortname: banglab
+
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
